@@ -40,17 +40,25 @@ a {
     font-size: 12px;
 }
 
-ul {
-    list-style: circle;
+ul, li {
+    list-style: none;
+    text-align: center;
+
     
 }
 
 h2, h3 {
     font-weight: bolder;
     color: rgb(2, 34, 2);
+    text-align: center;
     
 }
 
 .description {
     font-size: larger;
+    text-align: center;
+}
+
+.pad {
+    padding-top: 150px;
 }
